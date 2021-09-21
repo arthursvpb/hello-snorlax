@@ -1,3 +1,11 @@
 {{> nav}}
 
-<h1>About from Handlebars</h1>
+<h2>{{about}}</h2>
+
+<ul>
+    {{#each technologies}}
+        <li>
+            {{this}}
+        </li>
+    {{/each}}
+</ul>

@@ -1,0 +1,21 @@
+.navbar {
+  .navbar__list {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+  }
+
+  .navbar__link {
+    text-decoration: none;
+  }
+
+  .navbar__list-item {
+    padding: 1em 3em;
+    font-size: 1.3em;
+    transition: 0.2s;
+
+    &:hover {
+      background-color: #e3e3e3;
+    }
+  }
+}
