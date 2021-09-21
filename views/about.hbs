@@ -1,11 +1,15 @@
 {{> nav}}
 
-<h2>{{about}}</h2>
+<section class="row center-xs">
+    <h2>{{about}}</h2>
+</section>
 
-<ul>
-    {{#each technologies}}
+<section class="row center-xs">
+    <ul>
+        {{#each technologies}}
         <li>
             {{this}}
         </li>
-    {{/each}}
-</ul>
+        {{/each}}
+    </ul>
+</section>
