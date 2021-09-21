@@ -7,8 +7,11 @@ const routes = require('./routes');
 const PORT = 3000;
 const app = express();
 
+const helpers = require('./helpers/handlebar-helpers');
+
 const hbs = expressHbs.create({
   extname: '.hbs',
+  helpers,
 });
 
 app.engine('.hbs', hbs.engine);

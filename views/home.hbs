@@ -1,3 +1,11 @@
 {{> nav}}
 
+<div class="row center-xs">
+    {{#times 3}}
+    <div class="col-xs-12 col-sm-8 col-md-6 col-lg-4">
+        <img class="box" src="https://source.unsplash.com/random/400x400?sign={{this}}" />
+    </div>
+    {{/times}}
+</div>
+
 <h2>Hello World from Handlebars, {{person.name}}</h2>
