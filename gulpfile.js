@@ -39,5 +39,6 @@ function copy(cb) {
 }
 
 exports.default = function () {
+  series(style, scripts, copy)();
   watch('src', series(style, scripts, copy));
 };
