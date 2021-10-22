@@ -1,8 +1,10 @@
 $spacing: 3em;
 
 :root {
-  --background: #e5e5e5;
-  --black: #383838;
+  --primary: #b2d2b1;
+  --secondary: #9cc69b;
+  --secondary-shade: #8bbc8a;
+  --black: #0f1a0f;
 }
 
 * {
@@ -10,15 +12,37 @@ $spacing: 3em;
   padding: 0;
   box-sizing: border-box;
   color: var(--black);
-  font-family: sans-serif;
+  font-family: 'Lato', sans-serif;
   -webkit-font-smoothing: antialiased;
   scroll-behavior: smooth;
 }
 
-button {
-  cursor: pointer;
+html,
+body {
+  height: 100%;
+  width: 100%;
 }
 
-section, nav, div {
-  margin-bottom: $spacing;
+main {
+  height: 80%;
+}
+
+section {
+  height: 100%;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+
+  * {
+    margin: 8px 0;
+  }
+}
+
+body {
+  background-color: var(--primary);
+}
+
+button {
+  cursor: pointer;
 }

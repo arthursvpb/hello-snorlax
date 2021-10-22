@@ -1,4 +1,9 @@
 {
-  "about": "This project was made using the following techs:",
-  "technologies": ["Handlebars", "Gulp", "BEM Methodology", "SASS / SCSS"]
+  "about": "This amazing Snorlax was made using:",
+  "technologies": [
+    { "name": "Handlebars", "link": "https://handlebarsjs.com/" },
+    { "name": "Gulp", "link": "https://gulpjs.com/" },
+    { "name": "BEM Methodology", "link": "https://en.bem.info/methodology/" },
+    { "name": "SASS / SCSS", "link": "https://sass-lang.com/" }
+  ]
 }

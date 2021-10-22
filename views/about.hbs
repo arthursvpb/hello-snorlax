@@ -1,14 +1,12 @@
 {{> nav}}
 
-<section class="row center-xs">
+<section class="about">
     <h2>{{about}}</h2>
-</section>
 
-<section class="row center-xs">
-    <ul>
+    <ul class="about__list">
         {{#each technologies}}
-        <li>
-            {{this}}
+        <li class="about__list-item">
+            <a href={{this.link}}>{{this.name}}</a>
         </li>
         {{/each}}
     </ul>
