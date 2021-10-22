@@ -11,8 +11,8 @@
 
 <br />
 
-<p align="center" style="border: 5px solid hsl(240 4.6% 22%);">
-  <img alt="Hello Snorlax" src=".github/hello-snorlax.png" width="100%">
+<p align="center">
+  <img alt="Hello Snorlax" src=".github/hello-snorlax.png" width="50%">
 </p>
 
 <br />
